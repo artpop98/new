@@ -1,0 +1,104 @@
+/*css stylesheet*/
+body {
+    background-image: url("source.gif");
+    background-attachment: static;
+    background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: exclusion;
+    cursor: url("posterbanana%20PINK2019.png")
+    font-family: "franklin-gothic-urw-comp", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    background-color: mediumblue;
+        color:magenta;
+}
+
+.adhdclass {
+    padding: .005em;
+    border: .5em solid greenyellow;
+    margin-top: 5em;
+   
+
+
+
+}
+
+#adhd {
+    height: 50%;
+    width: auto;
+    padding: .4em;
+  
+    font-family: inherit;
+    font-size: 4em;
+    mix-blend-mode:hard-light;
+    letter-spacing: -.05em;
+    line-height: 170%;
+    margin-top: 5%;
+    line-height: 120%;
+    animation-name: spin;
+    animation-direction:alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-timing-function: ease-in-out;
+   
+}
+@keyframes spin {
+    0% {transform: rotateY(0deg)}
+    25% {transform: rotateY(90deg)}
+     50% {transform: rotateY(180deg)skewX(-45deg)skewY(-45deg)}
+   75% {transform: rotateY(90deg)} 
+    100% {transform: rotateY(0deg)skewX(45deg)skewY(45deg)}
+    
+   
+}
+
+
+
+   
+}
+    color: greenyellow;
+}
+
+#deficit {
+    margin-left: .5em;
+}
+
+#hyper {
+    margin-left:1em;
+}
+
+#disorder {
+    z-index: 4;
+    margin-left: 2.5em;
+    transform-origin: left
+}
+
+#rainbow {
+    width: 66em;
+    height: auto;
+    margin-top: -255%;
+    z-index: -2;
+    transform: skew(-5deg, -15deg);
+    
+}
+
+
+#mydiv {
+    position: fixed;
+    mix-blend-mode: difference;
+
+    z-index: 2;
+
+}
+
+#picOne {
+position: absolute;
+    height: 200em;
+    mix-blend-mode: exclusion;
+    cursor: move;
+    z-index: 10;
+    color: orangered;
+
+
+}
+
