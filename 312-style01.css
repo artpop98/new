@@ -3,42 +3,40 @@ body {
     background-image: url("source.gif");
     background-attachment: static;
     background-repeat: no-repeat;
-background-size: cover;
+background-size: 100vw;
 background-blend-mode: exclusion;
-    cursor: url("posterbanana%20PINK2019.png")
+    cursor: crosshair;
     font-family: "franklin-gothic-urw-comp", sans-serif;
     font-weight: 700;
     font-style: italic;
     background-color: mediumblue;
         color:magenta;
+   
 }
 
 .adhdclass {
-    padding: .005em;
+    position: absolute;
+    padding: .05em;
     border: .5em solid greenyellow;
-    margin-top: 5em;
-   
-
-
-
 }
 
 #adhd {
-    height: 50%;
-    width: auto;
-    padding: .4em;
-  
+    height: 30vw;
+    width: 60vw;
+    padding: .04em;
+  background-color: lightcyan;
+    background-blend-mode: color-dodge;
     font-family: inherit;
     font-size: 4em;
-    mix-blend-mode:hard-light;
-    letter-spacing: -.05em;
-    line-height: 170%;
-    margin-top: 5%;
-    line-height: 120%;
+    
+    letter-spacing: 70%;
+    line-height: 250%;
+   
+    line-height: 1.5em;
     animation-name: spin;
-    animation-direction:alternate-reverse;
+    animation-direction:alternate;
     animation-iteration-count: infinite;
-    animation-duration: 8s;
+    animation-duration: 6s;
     animation-timing-function: ease-in-out;
    
 }
@@ -52,7 +50,38 @@ background-blend-mode: exclusion;
    
 }
 
+p {
+font-variant:small-caps;
+    margin-left: 50vw;
+    margin-top: -.05em;
+    position:relative;
+    color: darkblue;
+    mix-blend-mode:exclusion;
+    font-size: 30vw;
+    letter-spacing: -.85vw;
+    line-height: 20vw;
+    z-index: -2;
+    animation-name: drag;
+    animation-direction: alternate-reverse;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    
+}
 
+@keyframes drag {
+   from {top:-10vw;}
+    to {top: 80vw;}
+    15% {transform: rotateX(45deg) scale(0%)}
+    50% {transform: rotateZ(90deg) rotateX(90deg)}
+    100% {transform: rotateZ(360deg) scale{100%}}
+}
+.fuck {
+    width:10%;
+    height: 10%
+    margin-top: -50%;
+    position: static;
+}
 
    
 }
@@ -61,23 +90,26 @@ background-blend-mode: exclusion;
 
 #deficit {
     margin-left: .5em;
+    color:black;
 }
 
 #hyper {
     margin-left:1em;
+    color:aqua
 }
 
 #disorder {
     z-index: 4;
     margin-left: 2.5em;
-    transform-origin: left
+    transform-origin: left;
+    color:yellow;
 }
 
 #rainbow {
     width: 66em;
     height: auto;
-    margin-top: -255%;
-    z-index: -2;
+    margin:5vw;
+    z-index: 20;
     transform: skew(-5deg, -15deg);
     
 }
