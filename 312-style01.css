@@ -24,7 +24,7 @@ background-blend-mode: exclusion;
     height: 30vw;
     width: 60vw;
     padding: .04em;
-  background-color: lightcyan;
+  background-color: none;
     background-blend-mode: color-dodge;
     font-family: inherit;
     font-size: 4em;
